@@ -92,7 +92,9 @@ export default function Header() {
               <Github />
             </Link>
           </Button>
-          <Button className="cursor-pointer font-medium">Get started</Button>
+          <Link href={"https://platform.leeroo.com"} target="_blank">
+            <Button className="cursor-pointer font-medium">Get started</Button>
+          </Link>
         </div>
       </div>
     </header>
